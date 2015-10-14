@@ -1,0 +1,229 @@
+/* main2 CSS */
+
+/*
+
+light blue: #96bbbb; //rgba(150, 187, 187, 100)
+blue: #618985; //rgba(97, 137, 133, 100)
+gray: #414535; //rgba(65, 69, 53, 100)
+light pink: #f2e3bc; //rgba(242, 227, 188, 100)
+dark pink: #c19875; //rgba(193, 152, 117, 100)  
+bright blue: #00BCD4;
+almost White #EFF7F5;
+
+*/
+
+@font-face {
+  font-family: "Unique";
+  src: url("../fonts/unique.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Cinzel-Regular";
+  src: url("../fonts/Cinzel-Regular.otf");
+  font-weight: normal;
+}
+
+
+html, body, h1, h2, h3, h4, p, ul ol, li {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-size: 100%;
+	font-weight: normal;
+	font-family: Unique, Arial, Helvetica, sans-serif;
+	color: #414535;
+}
+
+body, html {
+	height: 100%;
+	background-color: #EFF7F5;
+}
+
+h1 {
+	
+	font-size: 60px;
+	text-align: center;
+	font-weight: bold;
+	color: #EFF7F5;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	font-family: Cinzel-Regular, Arial, Helvetica, sans-serif;
+	color: #00BCD4;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #00BCD4;
+}
+
+strong {
+	font-weight: 900;
+}
+
+p {
+	line-height: 30px;
+	text-align: justify;
+}
+
+.header {
+	background-color: #00BCD4;
+	padding: 15px;	
+}
+
+.tag-line {
+	background-color: #414535;
+	padding: 10px;
+
+}
+
+.tag-line h2 {
+	width: 800px;
+	margin: 0 auto;
+	color: #EFF7F5;
+}
+
+.about-me, .previous-placements, .contact-me {
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+.about-me h2, .previous-placements h2 {
+	border-bottom: 1px solid #414535;
+	margin: 20px;
+}
+
+.moving p {
+	margin-bottom: 30px;
+}
+
+.travel-icons {
+	text-align: center;
+}
+
+.size128 {
+	width: 128px;
+}
+
+.transport {
+	padding-bottom: 16px;
+}
+
+.previous-placements .intro {
+	margin-bottom: 30px;
+}
+
+.placements {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.article {
+	border-right: 1px solid #414535;
+	float: left;
+	width: 29%;
+	height: 100%;
+	padding: 0 2%;
+}
+
+.article h3 {
+	border-bottom: 1px solid #414535;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	color: #00BCD4;
+	height: 50px;
+}
+
+.article p {
+	text-align: justify;
+}
+
+.article:last-child{
+	border: none;
+}
+
+.contact-me {
+	clear: both;
+	margin-bottom: 40px;
+}
+
+form {
+	background-color: #414535;
+	border: 1px solid #414535;
+	border-radius: 15px;
+	padding: 30px;
+	margin: 10px 0;
+	box-shadow: 0 0 10px 0px  #414535;
+}
+
+label, input, textarea {
+	display: block;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+label {
+	color: #fff;
+}
+
+input[type=text], input[type=email] {
+	width: 200px;
+}
+
+textarea {
+	width: 700px;
+	max-width: 700px;
+	height: 150px;
+}
+
+.footer {
+	background-color: #414535;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.footer p {
+	font-family: Cinzel-Regular, Arial, Helvetica, sans-serif;
+	color: #00BCD4;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 25px;
+	text-align: center;
+}
+
+.social-media ul{
+	display: inline;
+	
+}
+
+.social-media li  {
+	box-sizing: padding-box;
+	display: inline;
+	color: #96bbbb;
+	padding: 0 10px;
+}
+
+.social-media img {
+	width: 50px;
+}
+
+.social-media img:hover {
+	width: 60px;
+	border-bottom: 2px solid black;
+}
+
+a > img{
+	border: 0;
+}
+
+
+
+
+
+
