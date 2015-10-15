@@ -94,14 +94,14 @@
 		
 		<div class='contact-me'>
 			<h2>Contact Me</h2>
-			<form>
+			<form name="email-form" method="post" action="email.php">
 				<label for='subject'>Subject</label>
-				<input  id='subject' type='text' placeholder='nice page...' required />
+				<input name="subject"  id='subject' type='text' placeholder='nice page...' required />
 				
 				<label for='emial'>E-Mail</label>
-				<input id='email' type='email' placeholder='example@email.com' required />
+				<input name="email" id='email' type='email' placeholder='example@email.com' required />
 				
-				<textarea></textarea>
+				<textarea name="message"></textarea>
 				
 				<input type='submit'>
 			</form>
