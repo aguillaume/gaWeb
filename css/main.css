@@ -118,7 +118,7 @@ nav .menu a {
     color: #414535;
 }
 
-nav .menu .active a {
+nav .menu a.active {
     color: #00BCD4;
     font-weight: bold;
 }

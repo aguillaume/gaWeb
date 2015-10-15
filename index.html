@@ -8,6 +8,8 @@
     <meta name="description" content="Descriptions and summary of the things that I, Guillaume, have been doing at Tesco">
 
     <link rel='stylesheet' href='css/main.css'>
+    <script src="scripts/jQuery-min1.11.js"></script>
+    <script src="scripts/nav.js"></script>
 </head>
 
 <body>
@@ -27,9 +29,9 @@
         </div>
         <div class="menu">
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact_me.html">Contact Me</a></li>
+                <li><a href="index.html" onclick="changeActive()">Home</a></li>
+                <li><a href="gallery.html" onclick="changeActive()">Gallery</a></li>
+                <li><a href="contact_me.html" onclick="changeActive()">Contact Me</a></li>
             </ul>
         </div>
     </nav>
