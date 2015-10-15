@@ -203,7 +203,13 @@ nav .menu a.active {
 /* END clearfix */
 
 .contact-me {
+    margin-top: 60px;
 	margin-bottom: 40px;
+}
+
+.contact-me h2 {
+    margin: 30px 0;
+    font-size: 40px;
 }
 
 form {
@@ -274,6 +280,58 @@ textarea {
 a > img{
 	border: 0;
 }
+
+
+/*GALLERY*/
+
+.gallery h2 {
+    font-size: 2.5em;
+    margin: 20px;
+}
+
+.gallery h3 {
+    font-size: 1em;
+}
+
+.gallery div {
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.gallery img {
+    display: inline;
+    height: 400px;
+    background-color: #414535;
+    padding: 15px;
+    border: 1px solid #414535;
+    box-shadow: 0 0 8px 2px #414535;
+}
+
+.gallery .pair {
+    height: 400px;
+    margin: 30px;
+}
+
+.gallery .pair2 {
+    height: 200px;
+    margin: 30px;
+}
+
+.gallery .pano {
+    width: 800px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+#full-size {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+
 
 
 

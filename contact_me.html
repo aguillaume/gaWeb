@@ -1,20 +1,18 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <title>Guillaume's Main Page</title>
+    <meta name="description" content="Descriptions and summary of the things that I, Guillaume, have been doing at Tesco">
 
+    <link rel='stylesheet' href='css/main.css'>
+    <script src="scripts/jQuery-min1.11.js"></script>
+    <script src="scripts/nav.js"></script>
 </head>
-<meta charset="utf-8">
-<title>Guillaume's Main Page</title>
-<meta name="description" content="Descriptions and summary of the things that I, Guillaume, have been doing at Tesco">
-
-<link rel='stylesheet' href='css/main.css'>
-<script src="scripts/jQuery-min1.11.js"></script>
-<script src="scripts/nav.js"></script>
-<script src="scripts/gallery.js"></script>
 
 <body>
-
     <header>
         <div class="top-header">
             <h1>Guillaume, teching...</h1>
@@ -37,29 +35,23 @@
         </div>
     </nav>
 
-    <section class="gallery">
-        <h2>Gallery</h2>
-        <h3>Click the photo to see full size</h3>
-        <div>
-            <img src="imgs/gallery/main.jpg" />
-        </div>
-        <div>
-            <img class="pair" src="imgs/gallery/paris.jpg" />
-            <img class="pair" src="imgs/gallery/mountain1.jpg" />
-        </div>
-        <div>
-            <img class="pair2" src="imgs/gallery/007.jpg" />
-            <img class="pair2" src="imgs/gallery/queen.jpg" />
-        </div>
-        <div>
-            <img class="pano" src="imgs/gallery/pano1.jpg" />
-            <img class="pano" src="imgs/gallery/pano2.jpg" />
-        </div>
-        <div>
-            <img src="imgs/gallery/group1.jpg" />
-        </div>
-    </section>
+    <section class='contact-me'>
+        <h2>Contact Me</h2>
+        <form action="scripts/mailer.php" method="post">
+            <label for='name'>Name</label>
+            <input id='name' type='text' name="name" placeholder='    Gianni' required />
 
+            <label for='emial'>E-Mail</label>
+            <input id='email' type='email' name="email" placeholder='    example@email.com' required />
+
+            <label for='subject'>Subject</label>
+            <input id='subject' type='text' name="subject" placeholder='    nice page...' required />
+
+            <textarea name="message"></textarea>
+
+            <input type='submit'>
+        </form>
+    </section>
 
     <footer class="footer">
         <div class='social-media'>
@@ -84,7 +76,6 @@
         </div>
         <p>A &copy; Colour Zoo creation</p>
     </footer>
-
 </body>
 
 </html>
