@@ -22,9 +22,3 @@ $(document).ready(function () {
 function showMenu() {
     $(".menu").toggle();
 }
-
-//function changeActive() {
-//    $(".menu, li").removeClass("active");
-//    console.log("test");
-//    $("li", this).addClass("active");
-//}
