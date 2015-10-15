@@ -87,6 +87,42 @@ header h1 {
 	color: #EFF7F5;
 }
 
+nav {
+    position: fixed;
+    padding: 10px;
+    top: 25px;
+    left: 25px;
+}
+
+nav img{
+    width: 32px;
+}
+
+nav .menu ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+nav .menu li{
+    list-style: none;
+    padding: 3px 5px;
+    margin: 2px 0;
+    background-color: #EFF7F5;
+    border: 1px solid #414535;
+    border-radius: 20px;
+    text-align: center;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: #414535;
+}
+
+nav .menu .active a {
+    color: #00BCD4;
+    font-weight: bold;
+}
+
 .about-me, .previous-placements, .contact-me {
 	width: 800px;
 	margin: 0 auto;
@@ -121,6 +157,7 @@ header h1 {
 .placements {
 	overflow: hidden;
 	margin-bottom: 30px;
+	box-shadow: 0 15px 15px -15px  #414535;
 }
 
 .placements article {
@@ -128,6 +165,7 @@ header h1 {
 	float: left;
 	width: 29%;
 	padding: 0 2%;
+    padding-bottom: 5px;
 }
 
 .placements article h3 {
@@ -136,6 +174,11 @@ header h1 {
 	padding-bottom: 5px;
 	color: #00BCD4;
 	height: 50px;
+}
+
+.placements article .text {
+    height: 500px;
+    overflow-y: auto;
 }
 
 .placements article p {

@@ -1,125 +1,161 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-        <meta charset="utf-8">
-		<title>Guillaume's Main Page</title>
-		<meta name="description" content="Descriptions and summary of the things that I, Guillaume, have been doing at Tesco">
-        
-		<link rel='stylesheet' href='css/main.css'>
-	</head>
-	<body>
-		<header>
-            <div class="top-header">
-                <h1>Guillaume, teching...</h1>
-            </div>
-		
-            <div class="tag-line">
-			<h2><strong>Welcome to my personal page!</strong><br>I am curretly on a three months placement in India expanding my technical knowledge.</h2>
-		</header>
-		
-        <main>
-            <section class='about-me'>
-                <section class='moving'>
-                    <h2>Moving across Europe</h2>
-                    <article class='travel'>
-                        <div class="travel-icons">
-                            <img class="size128" src="imgs/italy_heart_256.png">
-                            <img class="transport" src="imgs/air.png">
-                            <img class="size128" src="imgs/netherlands_256.png">
-                        </div>
-                        <p>I was born in Italy on 17 April 1991. I lived in Italy until the age of 12, then moved to The Netherlands with my family.</p>
-                    </article>
-                    <article class='travel'>
-                        <div class="travel-icons">
-                            <img class="size128" src="imgs/netherlands_256.png">
-                            <img class="transport" src="imgs/air.png">
-                            <img class="size128" src="imgs/united_kingdom_256.png">
-                            <img class="transport" src="imgs/boat.png">
-                            <img class="size128" src="imgs/netherlands_256.png">
-                        </div>
-                        <p>In 2009 I moved to England to study at the University of Birmingham. After earning a BSc in Business Management with Intercalated Year in Computer Science I moved back to the Netherlands. </p>
-                    </article>
-                    <article class='travel'>
-                        <div class="travel-icons">
-                            <img class="size128" src="imgs/netherlands_256.png">
-                            <img class="transport" src="imgs/train.png">
-                            <img class="size128" src="imgs/france_256.png">
-                            <img class="transport" src="imgs/air.png">
-                            <img class="size128" src="imgs/united_kingdom_256.png">
-                            <img class="transport" src="imgs/air.png">
-                            <img class="size128" src="imgs/india_256.png">
-                        </div>
-                        <p>Before joining Tesco in September 2014 I moved to Saint-Germain-en-Laye, Paris for 6 months to live the French dream with my Polish half, Roksana. Then we moved back to the UK in Hertford. Now I am curretly living in Bangaluru, India on a 3 month placement for Tesco.</p>
-                    </article>
-                </section>
-                <section class='i-like'>
-                    <h2>What I like</h2>
-                    <p>In my free time I enjoy biking and hiking in the mountains, playing all sorts of video games except sports games, chilling fun with friends, snowboarding and everything related to snow and I also enjoy a little cooking especially if it isn't just me.</p>
-                </section>
-            </section>
 
-            <section class='previous-placements'>
-                <h2>Team 27</h2>
-                <article class="intro">
-                    <p>Sinced the Technology Graduate Scheme I have been in one team, that is now called 'Property, Plan Product and Commercial Workbench' (Honestly the name makes no sense).</p>
-                    <p>We are a Product team, but also a service team as we look after the Product Location Service and are developing the Range Service. </p>
-                    <p>In essence the team looks after a large part of the product life cycle in Tesco. The product ranges in store and online, the new buying tools for clothing and the allocation of products for GM and clothing. Before the restructure in March 2015 we used to look after commercial workbench, which is a large set of legacyreports for the commercial team and store managers.</p>
-                    <p>For a large part of my placement I worked on Run Audit for the team, them I was a Technology Manager for the Telecoms MI project and then I was acting Product Owner for the SRD Continuous integration & Continuous Deplymnet implementation.</p>
+<head>
+    <meta charset="utf-8">
+    <title>Guillaume's Main Page</title>
+    <meta name="description" content="Descriptions and summary of the things that I, Guillaume, have been doing at Tesco">
+
+    <link rel='stylesheet' href='css/main.css'>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <h1>Guillaume, teching...</h1>
+        </div>
+
+        <div class="tag-line">
+            <h2><strong>Welcome to my personal page!</strong><br>I am curretly on a three months placement in India expanding my technical knowledge.</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu_icon">
+            <img src="imgs/menu48.png" onclick="showMenu()">
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact_me.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <main>
+        <section class='about-me'>
+            <section class='moving'>
+                <h2>Moving across Europe</h2>
+                <article class='travel'>
+                    <div class="travel-icons">
+                        <img class="size128" src="imgs/italy_heart_256.png">
+                        <img class="transport" src="imgs/air.png">
+                        <img class="size128" src="imgs/netherlands_256.png">
+                    </div>
+                    <p>I was born in Italy on 17 April 1991. I lived in Italy until the age of 12, then moved to The Netherlands with my family.</p>
                 </article>
-                <section class='placements group'>
-                    <article>
-                        <h3>Run Audit</h3>
-                        <p>The run aspect of the team was not particularlly we monitored and the reports provided were not used or understood by everyone.<br>
-                        I started by cataloging the current state of all applications the cell looked after. Through this activity I removed unused applications and moved applications that had wrongly been assigned to us. This formed the base from which we would work to improve the service we were providing.
-                        I then set up weekly calls for the whole run team to review the service and share issues and concerns. <br>
-                        Finally, later in the year I worked to standardise and automate a Run Summary Report which the team con reliably get their information from, faster than they could before.</p>
-                    </article>
+                <article class='travel'>
+                    <div class="travel-icons">
+                        <img class="size128" src="imgs/netherlands_256.png">
+                        <img class="transport" src="imgs/air.png">
+                        <img class="size128" src="imgs/united_kingdom_256.png">
+                        <img class="transport" src="imgs/boat.png">
+                        <img class="size128" src="imgs/netherlands_256.png">
+                    </div>
+                    <p>In 2009 I moved to England to study at the University of Birmingham. After earning a BSc in Business Management with Intercalated Year in Computer Science I moved back to the Netherlands. </p>
+                </article>
+                <article class='travel'>
+                    <div class="travel-icons">
+                        <img class="size128" src="imgs/netherlands_256.png">
+                        <img class="transport" src="imgs/train.png">
+                        <img class="size128" src="imgs/france_256.png">
+                        <img class="transport" src="imgs/air.png">
+                        <img class="size128" src="imgs/united_kingdom_256.png">
+                        <img class="transport" src="imgs/air.png">
+                        <img class="size128" src="imgs/india_256.png">
+                    </div>
+                    <p>Before joining Tesco in September 2014 I moved to Saint-Germain-en-Laye, Paris for 6 months to live the French dream with my Polish half, Roksana. Then we moved back to the UK in Hertford. Now I am curretly living in Bangaluru, India on a 3 month placement for Tesco.</p>
+                </article>
+            </section>
+            <section class='i-like'>
+                <h2>What I like</h2>
+                <p>In my free time I enjoy biking and hiking in the mountains, playing all sorts of video games except sports games, chilling fun with friends, snowboarding and everything related to snow and I also enjoy a little cooking especially if it isn't just me.</p>
+            </section>
+        </section>
 
-                    <article>
-                        <h3>Telecoms MI, Technology Manager</h3>
+        <section class='previous-placements'>
+            <h2>Team 27</h2>
+            <article class="intro">
+                <p>Sinced the Technology Graduate Scheme I have been in one team, that is now called 'Property, Plan Product and Commercial Workbench' (Honestly the name makes no sense).</p>
+                <p>We are a Product team, but also a service team as we look after the Product Location Service and are developing the Range Service. </p>
+                <p>In essence the team looks after a large part of the product life cycle in Tesco. The product ranges in store and online, the new buying tools for clothing and the allocation of products for GM and clothing. Before the restructure in March 2015 we used to look after commercial workbench, which is a large set of legacyreports for the commercial team and store managers.</p>
+                <p>For a large part of my placement I worked on Run Audit for the team, them I was a Technology Manager for the Telecoms MI project and then I was acting Product Owner for the SRD Continuous integration & Continuous Deplymnet implementation.</p>
+            </article>
+            <section class='placements group'>
+                <article>
+                    <h3>Run Audit</h3>
+                    <div class="text">
+                        <p>The run aspect of the team was not particularlly we monitored and the reports provided were not used or understood by everyone.
+                            <br> I started by cataloging the current state of all applications the cell looked after. Through this activity I removed unused applications and moved applications that had wrongly been assigned to us. This formed the base from which we would work to improve the service we were providing. I then set up weekly calls for the whole run team to review the service and share issues and concerns.
+                            <br> Finally, later in the year I worked to standardise and automate a Run Summary Report which the team con reliably get their information from, faster than they could before.</p>
+                    </div>
+                </article>
 
-                        <p>Around January two team members left and I got the opportunity to set in and cover for one of them on the Telecoms Reporting Project.</p> 
+                <article>
+                    <h3>Telecoms MI, Technology Manager</h3>
+
+                    <div class="text">
+                        <p>Around January two team members left and I got the opportunity to set in and cover for one of them on the Telecoms Reporting Project.</p>
                         <p>We were tasked by the Telecoms business team to build a report for the phoneshop store maanges and the area managers.The project was near completion but there were a lot of small issues that needed to be ironed out before we could go live.</p>
                         <p>I worked with the team in Bangaluru and the stakeholders in the commercial team to make sure no new requiroments where added, and that all the issues they raised were fixed to proper standard.</p>
-                    </article>
+                    </div>
+                </article>
 
-                    <article>
-                        <h3>SRD CICD, product Owner</h3>
+                <article>
+                    <h3>SRD CICD, product Owner</h3>
 
+                    <div class="text">
                         <p>The Space Range and Display suiute of application is live in all twelve countries that Tesco operated in. There are 3 different versioions and each country has cunsumizations, this makes maintainablity and upgreads very difficult and time consuming.</p>
                         <p>This project focuses on improving the engeneering platform for SRD to a single code base across all countries and the ability to automatically deploy new code everywhere.</p>
                         <p>As a Product Owner I worked closly with the Solution Architect and the Tech Expert to refine what was needed to achive this goat and why we needed to do it this way. As well as reviewing how we would achive this ambitious goal.</p>
-                    </article>
-                </section>
+                    </div>
+                </article>
             </section>
+        </section>
 
-            <section class='contact-me'>
-                <h2>Contact Me</h2>
-                <form action="scripts/mailer.php" method="post">
-                    <label for='subject'>Subject</label>
-                    <input id='subject' type='text' name="subject" placeholder='    nice page...' required />
+        <section class='contact-me'>
+            <h2>Contact Me</h2>
+            <form action="scripts/mailer.php" method="post">
+                <label for='subject'>Subject</label>
+                <input id='subject' type='text' name="subject" placeholder='    nice page...' required />
 
-                    <label for='emial'>E-Mail</label>
-                    <input id='email' type='email' name="email" placeholder='    example@email.com' required />
+                <label for='emial'>E-Mail</label>
+                <input id='email' type='email' name="email" placeholder='    example@email.com' required />
 
-                    <textarea name="message"></textarea>
+                <textarea name="message"></textarea>
 
-                    <input type='submit'>
-                </form>
-            </section>
-        </main>
+                <input type='submit'>
+            </form>
+        </section>
+    </main>
 
-		<footer class="footer">
-			<div class='social-media'>
-				<ul>
-					<li><a href="https://www.linkedin.com/pub/guillaume-alpe/62/370/99a"><img src="imgs/media-icons/linkedin.svg" alt='Linkedin media icon'></a></li>
-					<li><a href="https://github.com/aguillaume"><img src="imgs/media-icons/github.svg" alt='GitHub media icon'></a></li>
-					<li><a href="https://www.youtube.com/user/guillaumealpe/videos"><img src="imgs/media-icons/youtube.svg" alt='youTube media icon'></a></li>
-					<li><a href="http://www.g-rex17.deviantart.com/"><img src="imgs/media-icons/deviantart.svg" alt='DeviantArt media icon'></a></li>
-				</ul>
-			</div>
-			<p>A &copy; Colour Zoo creation</p>
-		</footer>
-	</body>
+    <footer class="footer">
+        <div class='social-media'>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/pub/guillaume-alpe/62/370/99a"><img src="imgs/media-icons/linkedin.svg" alt='Linkedin media icon'>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/aguillaume"><img src="imgs/media-icons/github.svg" alt='GitHub media icon'>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/guillaumealpe/videos"><img src="imgs/media-icons/youtube.svg" alt='youTube media icon'>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.g-rex17.deviantart.com/"><img src="imgs/media-icons/deviantart.svg" alt='DeviantArt media icon'>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>A &copy; Colour Zoo creation</p>
+    </footer>
+</body>
+
 </html>
