@@ -7,11 +7,9 @@ $(document).ready(function () {
         if (!$page) {
             $page = 'index.html';
         }
-        console.log($page);
         $('menu, li, a').each(function () {
             var $href = $(this).attr('href');
             if (($href == $page) || ($href == '')) {
-                console.log($(this).attr('href'));
                 $(this).addClass('active');
             } else {
                 $(this).removeClass('active');
