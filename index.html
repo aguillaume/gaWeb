@@ -96,12 +96,12 @@
 
             <section class='contact-me'>
                 <h2>Contact Me</h2>
-                <form name="email-form" method="post" action="email.php">
+                <form action="scripts/mailer.php" method="post">
                     <label for='subject'>Subject</label>
-                    <input name="subject"  id='subject' type='text' placeholder='    nice page...' required />
+                    <input id='subject' type='text' name="subject" placeholder='    nice page...' required />
 
                     <label for='emial'>E-Mail</label>
-                    <input name="email" id='email' type='email' placeholder='    example@email.com' required />
+                    <input id='email' type='email' name="email" placeholder='    example@email.com' required />
 
                     <textarea name="message"></textarea>
 
